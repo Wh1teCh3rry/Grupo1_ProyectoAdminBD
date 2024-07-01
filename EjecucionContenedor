@@ -1,0 +1,1 @@
+docker run --name postgresgrp1 -p 13405:3406 -v /docker-storage/postgres/conf.d/:/etc/postgresql -v /docker-storage/postgres/data:/var/lib/postgresql -e POSTGRES_PASSWORD=grupo1 --restart=always -d postgres
